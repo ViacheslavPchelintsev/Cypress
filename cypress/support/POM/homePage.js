@@ -50,4 +50,12 @@ export class homePage {
   get email() {
     return cy.get(".contacts_link.h4");
   }
+
+  get registrationButton() {
+    return cy.get(".modal-footer .btn-link");
+  }
+
+  get registerButton() {
+    return cy.get(".modal-footer .btn-primary");
+  }
 }
