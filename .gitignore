@@ -1,0 +1,5 @@
+/node_modules
+testData.js
+cypress/e2e/regestration.cy.js
+cypress/results
+cypress/screenshots
