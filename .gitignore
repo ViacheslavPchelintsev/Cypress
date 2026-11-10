@@ -3,3 +3,4 @@ testData.js
 cypress/e2e/regestration.cy.js
 cypress/results
 cypress/screenshots
+cypress/e2e/garage.cy.js
