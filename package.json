@@ -1,0 +1,29 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open:test1": "npx cypress open --browser chrome --e2e --config-file cypress.config.js",
+    "cy:open:test2": "npx cypress open --browser chrome --e2e --config-file cypress2.config.js",
+    "cy:run:test1": "npx cypress run --browser chrome --e2e --config-file cypress.config.js",
+    "cy:run:test2": "npx cypress run --browser chrome --e2e --config-file cypress2.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViacheslavPchelintsev/Cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViacheslavPchelintsev/Cypress/issues"
+  },
+  "homepage": "https://github.com/ViacheslavPchelintsev/Cypress#readme",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^16.2.1",
+    "mochawesome": "^8.1.1",
+    "mochawesome-merge": "^5.1.1",
+    "mochawesome-report-generator": "^6.3.2"
+  }
+}
